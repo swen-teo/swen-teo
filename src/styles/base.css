@@ -1,0 +1,85 @@
+/* ---------------------------------------------------------
+   Tokens: soft pastel palette, type, shared materials
+   --------------------------------------------------------- */
+:root {
+  /* blush */
+  --blush-50: #fffafb;
+  --blush-100: #fcf0f4;
+  --blush-200: #f8e1e9;
+  --blush-300: #f2cad8;
+  --blush-400: #e8b0c4;
+  --blush-ink: #9a5b7b;
+
+  /* mint-blue */
+  --mint-50: #f6fbfb;
+  --mint-100: #e9f5f6;
+  --mint-200: #d6edef;
+  --mint-300: #bde0e4;
+  --mint-400: #9dcdd3;
+  --mint-ink: #437a83;
+
+  /* cream white */
+  --cream-50: #fffdfa;
+  --cream-100: #fcf8f4;
+  --cream-200: #f5efea;
+
+  /* dove grey */
+  --dove-100: #f3f1f4;
+  --dove-200: #e7e4e9;
+  --dove-300: #d3cfd6;
+  --dove-400: #b2adb7;
+  --dove-500: #8d8792;
+  --ink: #4b4650;
+  --ink-soft: #6e6873;
+
+  --f-display: 'Cormorant Garamond', Garamond, Georgia, serif;
+  --f-script: 'Mrs Saint Delafield', cursive;
+  --f-ui: 'Lucida Grande', 'Lucida Sans Unicode', 'Figtree', system-ui, sans-serif;
+  --f-label: 'Silkscreen', ui-monospace, monospace;
+  --f-hand: 'Caveat', 'Comic Sans MS', cursive;
+
+  --silver: linear-gradient(180deg, #fff 0%, #e9e7ed 36%, #b6b1bc 50%, #f6f5f8 60%, #cdc9d1 100%);
+  --gel-blush: linear-gradient(180deg, #fff 0%, #fcecf2 46%, #f4cddb 52%, #f8dfe8 100%);
+  --gel-mint: linear-gradient(180deg, #fff 0%, #eef8f9 46%, #cfe9ec 52%, #e3f3f4 100%);
+  --gel-dove: linear-gradient(180deg, #fff 0%, #f5f4f7 46%, #e2dfe5 52%, #f0eef2 100%);
+
+  color-scheme: light;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  font: 14px/1.5 var(--f-ui);
+  color: var(--ink);
+  background: var(--cream-100);
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+button, input, textarea, select { font: inherit; color: inherit; }
+button { cursor: pointer; }
+img, svg, canvas { display: block; max-width: 100%; }
+a { color: var(--blush-ink); }
+h1, h2, h3, h4, p { margin: 0; }
+:focus-visible { outline: 2px solid var(--mint-400); outline-offset: 2px; }
+
+.avatar { display: block; background-repeat: no-repeat; background-size: 300% auto; background-position: 59% 21%; background-color: #f6d9e3; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* Aqua-style gel button, pastel */
+.aqua {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  min-height: 28px; padding: 0 16px; border-radius: 999px;
+  font: 600 12.5px/1 var(--f-ui); text-decoration: none; color: var(--ink);
+  background: var(--gel-dove); border: 1px solid var(--dove-400);
+  box-shadow: inset 0 1px 0 #fff, 0 1px 2px rgba(80, 60, 80, .15);
+}
+.aqua:hover { filter: brightness(1.02); }
+.aqua:active { filter: brightness(.97); }
+.aqua--blush { background: var(--gel-blush); border-color: #dca3b8; color: var(--blush-ink); }
+.aqua--mint { background: var(--gel-mint); border-color: #9fcbd1; color: var(--mint-ink); }
+.aqua[disabled] { opacity: .5; cursor: default; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}

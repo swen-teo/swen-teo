@@ -1,0 +1,20 @@
+{
+  "name": "swen-teo-portfolio",
+  "version": "1.0.0",
+  "description": "Swen Teo portfolio: a MacBook on a desk that opens into a pastel Mac OS X-style desktop.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "type": "module",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.3",
+    "vite": "^5.4.10"
+  },
+  "private": true
+}

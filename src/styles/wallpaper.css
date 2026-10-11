@@ -1,0 +1,26 @@
+/* Pastel "aurora" desktop picture in the spirit of Mac OS X Tiger/Leopard:
+   layered light ribbons over a blush-to-mint sky, with grain. */
+.wallpaper {
+  position: absolute; inset: 0; overflow: hidden;
+  background:
+    url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 1000' preserveAspectRatio='none'><defs><linearGradient id='a' x1='0' x2='1'><stop offset='0' stop-color='%23fff' stop-opacity='0'/><stop offset='.45' stop-color='%23fff' stop-opacity='.9'/><stop offset='1' stop-color='%23fff' stop-opacity='0'/></linearGradient><linearGradient id='b' x1='0' x2='1'><stop offset='0' stop-color='%23f3c9d8' stop-opacity='0'/><stop offset='.5' stop-color='%23f3c9d8' stop-opacity='.8'/><stop offset='1' stop-color='%23f3c9d8' stop-opacity='0'/></linearGradient><linearGradient id='c' x1='0' x2='1'><stop offset='0' stop-color='%23c3e5e8' stop-opacity='0'/><stop offset='.55' stop-color='%23c3e5e8' stop-opacity='.85'/><stop offset='1' stop-color='%23c3e5e8' stop-opacity='0'/></linearGradient><radialGradient id='k'><stop offset='0' stop-color='%23fff' stop-opacity='.9'/><stop offset='.7' stop-color='%23fff' stop-opacity='.25'/><stop offset='1' stop-color='%23fff' stop-opacity='0'/></radialGradient><filter id='f'><feGaussianBlur stdDeviation='18'/></filter></defs><g filter='url(%23f)'><path d='M-200 760C200 560 600 940 1000 700S1500 380 1800 480' stroke='url(%23b)' stroke-width='170' fill='none'/><path d='M-200 600C260 420 640 760 1040 560S1520 300 1800 360' stroke='url(%23c)' stroke-width='130' fill='none'/><path d='M-200 680C240 500 620 860 1020 640S1510 340 1800 420' stroke='url(%23a)' stroke-width='90' fill='none'/></g><path d='M-200 690C240 510 620 870 1020 650S1510 350 1800 430' stroke='url(%23a)' stroke-width='3' fill='none'/><path d='M-200 720C250 540 630 900 1030 680S1510 380 1800 460' stroke='url(%23a)' stroke-width='1.4' fill='none' opacity='.8'/><path d='M-200 610C260 430 640 770 1040 570S1520 310 1800 370' stroke='url(%23a)' stroke-width='1.6' fill='none' opacity='.9'/><circle cx='487' cy='606' r='40' fill='url(%23k)' opacity='0.31'/><circle cx='1236' cy='485' r='10' fill='url(%23k)' opacity='0.52'/><circle cx='960' cy='265' r='20' fill='url(%23k)' opacity='0.34'/><circle cx='1468' cy='481' r='40' fill='url(%23k)' opacity='0.63'/><circle cx='975' cy='406' r='15' fill='url(%23k)' opacity='0.35'/><circle cx='310' cy='888' r='39' fill='url(%23k)' opacity='0.43'/><circle cx='31' cy='687' r='10' fill='url(%23k)' opacity='0.32'/><circle cx='1210' cy='43' r='25' fill='url(%23k)' opacity='0.60'/><circle cx='551' cy='484' r='30' fill='url(%23k)' opacity='0.57'/><circle cx='874' cy='404' r='34' fill='url(%23k)' opacity='0.68'/><circle cx='274' cy='899' r='29' fill='url(%23k)' opacity='0.29'/><circle cx='278' cy='506' r='19' fill='url(%23k)' opacity='0.37'/><circle cx='1376' cy='446' r='25' fill='url(%23k)' opacity='0.44'/><circle cx='790' cy='587' r='28' fill='url(%23k)' opacity='0.49'/><circle cx='834' cy='598' r='20' fill='url(%23k)' opacity='0.66'/><circle cx='1396' cy='937' r='7' fill='url(%23k)' opacity='0.64'/><circle cx='1240' cy='687' r='16' fill='url(%23k)' opacity='0.56'/><circle cx='668' cy='987' r='40' fill='url(%23k)' opacity='0.66'/><circle cx='1165' cy='106' r='19' fill='url(%23k)' opacity='0.53'/><circle cx='1174' cy='273' r='24' fill='url(%23k)' opacity='0.31'/><circle cx='987' cy='874' r='36' fill='url(%23k)' opacity='0.29'/><circle cx='136' cy='420' r='15' fill='url(%23k)' opacity='0.26'/><circle cx='874' cy='787' r='32' fill='url(%23k)' opacity='0.64'/><circle cx='90' cy='619' r='8' fill='url(%23k)' opacity='0.42'/><circle cx='1200' cy='338' r='23' fill='url(%23k)' opacity='0.48'/><circle cx='73' cy='317' r='6' fill='url(%23k)' opacity='0.28'/></svg>") center / 100% 100% no-repeat,
+    radial-gradient(120% 80% at 18% 8%, rgba(255, 255, 255, .95) 0%, rgba(255, 255, 255, 0) 55%),
+    radial-gradient(90% 70% at 85% 25%, rgba(214, 237, 239, .95) 0%, rgba(214, 237, 239, 0) 60%),
+    radial-gradient(110% 80% at 70% 100%, rgba(248, 214, 226, .95) 0%, rgba(248, 214, 226, 0) 65%),
+    radial-gradient(80% 60% at 10% 90%, rgba(232, 228, 240, .9) 0%, rgba(232, 228, 240, 0) 60%),
+    linear-gradient(170deg, #f4fafa 0%, #f9eef3 55%, #f3e3ea 100%);
+}
+.wallpaper::before {
+  content: ''; position: absolute; inset: -10%;
+  background:
+    radial-gradient(60% 18% at 50% 50%, rgba(255, 255, 255, .85), rgba(255, 255, 255, 0) 70%),
+    radial-gradient(70% 10% at 40% 58%, rgba(255, 255, 255, .7), rgba(255, 255, 255, 0) 70%),
+    radial-gradient(50% 8% at 62% 44%, rgba(220, 240, 242, .9), rgba(220, 240, 242, 0) 70%),
+    radial-gradient(55% 9% at 35% 66%, rgba(246, 205, 220, .8), rgba(246, 205, 220, 0) 70%);
+  transform: rotate(-14deg);
+  filter: blur(6px);
+}
+.wallpaper::after {
+  content: ''; position: absolute; inset: 0;
+  background: var(--tx-grain); opacity: .55; mix-blend-mode: soft-light;
+}
