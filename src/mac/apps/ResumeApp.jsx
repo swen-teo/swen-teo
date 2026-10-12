@@ -59,7 +59,7 @@ export default function ResumeApp({ onOpen }) {
             </div>
             <div className="resume-org">Singapore Management University</div>
             <p className="resume-desc">
-              Guide students through building responsive full-stack web applications, assisting with architecture, frameworks (Vue/Vite/Firebase), and technical problem-solving.
+              Guide students through building responsive full-stack web applications, assisting with architecture, frameworks (Vue 3, Vite, Firebase), and technical problem-solving during weekly lab sessions.
             </p>
           </div>
           <div className="resume-item">
@@ -69,7 +69,7 @@ export default function ResumeApp({ onOpen }) {
             </div>
             <div className="resume-org">SMU Blockchain Club</div>
             <p className="resume-desc">
-              Lead visual identity and digital campaigns across events, speaker panels, and workshops.
+              Lead visual identity and digital marketing campaigns across events, workshops, and speaker panels, producing social graphics, slide decks, and promotional mailers.
             </p>
           </div>
           <div className="resume-item">
@@ -78,6 +78,9 @@ export default function ResumeApp({ onOpen }) {
               <span className="resume-date">Apr 2024 – Present</span>
             </div>
             <div className="resume-org">Kumon, Tampines Central 1</div>
+            <p className="resume-desc">
+              Support preschool and primary-level teaching in mathematics and English reading, prepare worksheets, guide students, and manage classroom administrative duties.
+            </p>
           </div>
         </section>
 
@@ -86,19 +89,19 @@ export default function ResumeApp({ onOpen }) {
           <div className="resume-grid">
             <div className="resume-card">
               <b>QuestPass</b> <span className="resume-tag">Vue 3 · Vite · Firebase</span>
-              <p>Gamified live-event single page application for fans to earn presale access codes.</p>
+              <p>Full-stack single-page application gamifying live events and concerts: fans complete on-site quests to earn presale access codes and rewards.</p>
             </div>
             <div className="resume-card">
               <b>En-tire-ly Overrated?</b> <span className="resume-tag">React · Tableau · NLP</span>
-              <p>Data journalism story and sentiment analytics on Singapore Michelin dining.</p>
+              <p>Data journalism story and sentiment analytics investigating whether Michelin recognition in Singapore matches customer reviews, hygiene grades, and value.</p>
             </div>
             <div className="resume-card">
               <b>Valu$ Trade Prime</b> <span className="resume-tag">React · Supabase · Python</span>
-              <p>B2B omnichannel ordering portal with historical demand forecasting.</p>
+              <p>B2B digital transformation proposal and dual-portal ordering platform moving wholesale buyers onto subscription pricing with inventory forecasting.</p>
             </div>
             <div className="resume-card">
               <b>PII Guard</b> <span className="resume-tag">Python · DistilBERT · Flask</span>
-              <p>On-device privacy filter detecting and redacting sensitive data in real time.</p>
+              <p>On-device privacy security tool with DistilBERT and regex detecting and redacting sensitive personal information in prompts before cloud submission.</p>
             </div>
           </div>
         </section>

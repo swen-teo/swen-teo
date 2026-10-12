@@ -267,17 +267,14 @@ export default function Mac({ initialApp, onCloseLid }) {
       </div>
 
       {!compact && (
-        <>
+        <div className="dashboard-widgets" aria-label="Dashboard Widgets">
           <TodoStickyWidget />
-
-          <div className="dashboard-widgets" aria-label="Dashboard Widgets">
-            <div className="widget-row">
-              <ClockWidget />
-              <WeatherWidget />
-            </div>
-            <NowPlayingWidget />
+          <div className="widget-row">
+            <ClockWidget />
+            <WeatherWidget />
           </div>
-        </>
+          <NowPlayingWidget />
+        </div>
       )}
 
       {windows.filter((w) => w.open).map((w) => {

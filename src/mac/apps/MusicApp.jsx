@@ -20,7 +20,7 @@ export default function MusicApp() {
       <div className="ipodapp__screen">
         <div className="ipodapp__screen-hdr">
           <span className="ipodapp__badge">Now Playing</span>
-          <span className="ipodapp__loop-tag">Looping</span>
+          <span className="ipodapp__loop-tag">Repeat</span>
         </div>
 
         <div className="ipodapp__body">
@@ -34,7 +34,7 @@ export default function MusicApp() {
           <div className="ipodapp__track-info">
             <h2 className="ipodapp__title">{TRACK.title}</h2>
             <p className="ipodapp__artist">{TRACK.by}</p>
-            <span className="ipodapp__badge-pill">MP3 Audio · Looping</span>
+            <span className="ipodapp__badge-pill">MP3 Audio</span>
           </div>
         </div>
 

@@ -43,15 +43,15 @@
 /* ---------- Desktop items ---------- */
 .desktop-icons {
   position: absolute;
-  top: 40px;
+  top: 36px;
   right: 18px;
   display: flex;
   flex-direction: column;
   gap: 6px;
   z-index: 2;
-  max-height: calc(100vh - 190px);
-  flex-wrap: wrap;
-  align-content: flex-end;
+  max-height: calc(100vh - 180px);
+  flex-wrap: wrap-reverse;
+  align-content: flex-start;
 }
 .desktop-trash {
   position: absolute;
@@ -59,26 +59,43 @@
   right: 18px;
   z-index: 2;
 }
-.dicon { display: grid; justify-items: center; gap: 4px; width: 96px; padding: 6px 4px; border: 0; border-radius: 8px; background: none; cursor: pointer; transition: transform 0.12s; }
-.dicon:hover { transform: translateY(-2px); }
-.dicon svg { width: 62px; height: 62px; filter: drop-shadow(0 4px 6px rgba(110, 70, 90, .28)); }
-.dicon span { padding: 2px 8px; border-radius: 9px; font: 600 12px/1.4 var(--f-ui); color: var(--ink); text-shadow: 0 1px 0 rgba(255, 255, 255, .9); text-align: center; word-break: break-word; }
-.dicon:hover span, .dicon:focus-visible span { background: linear-gradient(180deg, #f3d0dc, #e7b1c5); color: #fff; text-shadow: none; }
-.dicon:focus-visible { outline: none; background: rgba(255, 255, 255, .35); }
-
-.stickies {
-  position: absolute; z-index: 2; top: 36px; left: 22px; width: 200px; padding: 20px 14px 10px;
-  font: 500 15px/1.22 var(--f-hand); color: #6c5c6c;
-  background: linear-gradient(180deg, #fdeef3 0%, #fbe6ee 100%), var(--tx-paper);
-  background-blend-mode: multiply;
-  box-shadow: 0 10px 22px rgba(110, 70, 90, .18), inset 0 0 0 1px rgba(220, 180, 195, .5);
-  rotate: -1.2deg;
+.dicon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  width: 86px;
+  padding: 4px 2px;
+  border: 0;
+  border-radius: 8px;
+  background: none;
+  cursor: pointer;
+  transition: transform 0.12s;
 }
-.stickies::before { content: ''; position: absolute; left: 0; right: 0; top: 0; height: 14px; background: linear-gradient(180deg, #f8dbe5, #f3cfdb); border-bottom: 1px solid #e9bfcf; }
-.stickies p { font-size: 20px; font-weight: 600; color: var(--blush-ink); margin-bottom: 3px; }
-.stickies ul { margin: 0; padding-left: 15px; }
-.stickies li { margin-bottom: 3px; }
-.stickies b { font-weight: 600; color: var(--ink); }
+.dicon:hover { transform: translateY(-2px); }
+.dicon svg {
+  width: 50px;
+  height: 50px;
+  filter: drop-shadow(0 4px 6px rgba(110, 70, 90, .28));
+}
+.dicon span {
+  padding: 2px 6px;
+  border-radius: 8px;
+  font: 600 11.5px/1.25 var(--f-ui);
+  color: var(--ink);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .9);
+  text-align: center;
+  max-width: 82px;
+  word-break: normal;
+  overflow-wrap: break-word;
+  hyphens: none;
+}
+.dicon:hover span, .dicon:focus-visible span {
+  background: linear-gradient(180deg, #f3d0dc, #e7b1c5);
+  color: #fff;
+  text-shadow: none;
+}
+.dicon:focus-visible { outline: none; background: rgba(255, 255, 255, .35); }
 
 /* ---------- Windows ---------- */
 .win {

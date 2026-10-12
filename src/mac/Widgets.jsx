@@ -242,9 +242,9 @@ export function NowPlayingWidget() {
 /* ---------- 4. Interactive Mintish-Blue Sticky Note (To-Do List) ---------- */
 export function TodoStickyWidget() {
   const [todos, setTodos] = useState([
-    { id: 1, text: 'Explore Mac portfolio', done: true },
-    { id: 2, text: 'Check out iTunes projects', done: true },
-    { id: 3, text: 'Snap photo in Photo Booth', done: false },
+    { id: 1, text: 'Check out projects in iTunes', done: true },
+    { id: 2, text: 'Read resume and awards', done: true },
+    { id: 3, text: 'Take a picture in Photo Booth', done: false },
   ]);
 
   const toggle = (id) => {

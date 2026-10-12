@@ -16,35 +16,31 @@ export default function TextEditApp({ onOpen }) {
  Mac OS X 10.4 Tiger (Pastel Edition)
 ============================================================
 
-Hello! Welcome to my interactive portfolio workspace.
+Portfolio workspace modeled after a 2006 white MacBook
+running Mac OS X Tiger.
 
-I built this simulation to capture the tactile charm and
-nostalgia of the mid-2000s Mac OS X Tiger / Leopard era,
-paired with modern responsive web engineering.
-
-SYSTEM SPECIFICATIONS:
-  Model:       MacBook (White Polycarbonate, 2006)
+SYSTEM DETAILS:
+  Machine:     MacBook (White Polycarbonate, 2006)
   Memory:      2 GB 667 MHz DDR2 SDRAM
-  Host:        Swen Teo
-  Focus:       Software Engineering & Data Analytics @ SMU
+  Owner:       Swen Teo
+  Studies:     Information Systems @ SMU
 
-WHERE TO GO NEXT:
-  * Projects (iTunes)      -> Check out web apps with live demos
-  * Experience (iCal)      -> Timeline of teaching & leadership
-  * Awards (Finder)        -> Academic & competition honors
-  * Photo Booth            -> Snap webcam photos with live filters
-  * Playlist (iPod)        -> Swen's Lo-Fi MP3 Playlist
-  * Widgets (Dashboard)    -> Clock, weather, and music player
+APPLICATIONS:
+  * Projects (iTunes)      -> Web apps, live sites, and GitHub repos
+  * Experience (iCal)      -> Teaching, clubs, and work timeline
+  * Awards (Finder)        -> Academic and competition awards
+  * Photo Booth            -> Webcam pictures with camera filters
+  * Music (iPod)           -> Audio player with playback controls
+  * Widgets (Dashboard)    -> Analog clock, weather, and to-do note
 
-EASTER EGGS:
-  1. Click the top-left lotus logo for shortcut options.
-  2. Click the Weather Widget to toggle Celsius & Fahrenheit.
-  3. Click the Analog Clock to switch between SGT and Local time.
-  4. The To-Do list on the desktop has checkable boxes!
-  5. Close the lid from the Dock or Apple Menu to return to the desk.
+SHORTCUTS:
+  1. Click the top-left lotus logo for menu actions.
+  2. Click the Weather widget to toggle Celsius and Fahrenheit.
+  3. Click the Analog Clock to switch between Singapore and local time.
+  4. Click items on the sticky note to mark them done.
+  5. Close the lid from the Apple menu or Dock to return to the desk.
 
-Enjoy your visit! Feel free to reach out via Mail (Contact)
-or connect on LinkedIn.
+Get in touch via Mail (Contact) or on LinkedIn.
 
 — Swen Teo`}
         </pre>

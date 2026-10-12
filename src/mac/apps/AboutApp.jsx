@@ -33,9 +33,9 @@ export default function AboutApp({ onOpen }) {
         </>
       ) : (
         <div className="about__more">
-          <p className="about__lead">I work at the intersection of software development, data analytics and digital engagement.</p>
-          <p>My coursework and projects cover the whole digital product lifecycle: designing and building user-centred applications, then applying statistical modelling and social data mining to understand how they’re used. I turn complex datasets into insights with dashboards in Tableau and Power BI, and I care about interfaces that make those insights easy to act on.</p>
-          <p>Alongside my degree I teach: I’m a Teaching Assistant for Web Application Development II at SMU and at Kumon, and I run marketing for SMU Blockchain Club.</p>
+          <p className="about__lead">Third-year Information Systems undergraduate at Singapore Management University, focusing on Product Development and Business Analytics.</p>
+          <p>Most of my work involves building frontend applications in Vue and React, processing data in Python and SQL, and designing dashboards in Tableau and Power BI. I focus on creating responsive, usable tools with clean code and practical data insights.</p>
+          <p>Outside of classes, I serve as a Teaching Assistant for SMU's Web Application Development II module, teach math and reading at Kumon, and handle event marketing for the SMU Blockchain Club.</p>
           <h3>Education</h3>
           <p><b>Singapore Management University</b><br />BSc (Information Systems), Product Development / Business Analytics<br /><span className="when">Aug 2024 – Aug 2028 (expected)</span></p>
           <p><b>Temasek Junior College</b><br />Integrated Programme, Science stream<br /><span className="when">Jan 2018 – Dec 2023</span></p>

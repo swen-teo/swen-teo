@@ -8,7 +8,7 @@ import './music.css';
 
 export const TRACK = {
   title: 'Swen’s Playlist',
-  by: 'Personal Lo-Fi',
+  by: 'Audio Track',
   url: '/playlist.mp3',
 };
 
@@ -236,7 +236,7 @@ function NowPlaying() {
 
         <div className="np__meta">
           <span className="np__title">{TRACK.title}</span>
-          <span className="np__by">{TRACK.by} · loops seamlessly</span>
+          <span className="np__by">{TRACK.by}</span>
         </div>
 
         <div className="np__ctrls">
